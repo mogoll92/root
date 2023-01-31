@@ -8,10 +8,10 @@
 # Default vars & funcs
 languages="en uk"
 language="en"
-script_link="https://raw.githubusercontent.com/f5nodes/$1/main/setup.sh"
-logo_link="https://raw.githubusercontent.com/f5nodes/root/main/logo/$3.sh"
-logo_link_d="https://raw.githubusercontent.com/f5nodes/root/main/logo/logo.sh"
-available_nodes="https://raw.githubusercontent.com/f5nodes/root/main/available.sh"
+script_link="https://raw.githubusercontent.com/mogoll92/$1/main/setup.sh"
+logo_link="https://raw.githubusercontent.com/mogoll92/root/main/logo/$3.sh"
+logo_link_d="https://raw.githubusercontent.com/mogoll92/root/main/logo/logo.sh"
+available_nodes="https://raw.githubusercontent.com/mogoll92/root/main/available.sh"
 confirm() {
     read -r -p "${1:-Continue? [y/n]} " response
     case "$response" in
